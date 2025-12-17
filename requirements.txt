@@ -1,0 +1,8 @@
+torch>=2.1
+tqdm
+numpy
+sacrebleu
+sentencepiece
+jieba
+transformers>=4.40
+accelerate
