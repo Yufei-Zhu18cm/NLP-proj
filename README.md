@@ -76,5 +76,3 @@ python inference.py --ckpt_dir checkpoints/t5_finetune --input "今天 天气 �
 python evaluate.py --ckpt_dir checkpoints/rnn_lstm_add_sched_beam --test_jsonl data/test.jsonl
 python evaluate.py --ckpt_dir checkpoints/tfm_sin_ln              --test_jsonl data/test.jsonl
 python evaluate.py --ckpt_dir checkpoints/t5_finetune             --test_jsonl data/test.jsonl
-
-only tfm_100k_sin_ln_ep40 and rnn_100k_add_tf_beam_ep40 save the best .pt
